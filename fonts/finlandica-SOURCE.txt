@@ -1,0 +1,6 @@
+Finlandica Text — imported 2026-09-01 (Tier 1 of the 2026-09-01 font scour, see _docs/FONT-SCOUR-2026-09-01.md)
+License: open source (OFL — see fonts.google.com)
+Downloaded from github.com/google/fonts (ofl/finlandicatext); FinlandicaText-Italic[wght].ttf axes wght; FinlandicaText[wght].ttf axes wght
+Static styles: 18; variable files: 2. Icelandic (Þ Ð Æ Ö + acutes) verified present per saved file via cmap check — no synthesis needed.
+No native OTF distributed by the source — ttf + web (woff/woff2) only.
+https://fonts.google.com/specimen/Finlandica+Text
