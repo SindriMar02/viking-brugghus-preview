@@ -266,8 +266,9 @@
      is given the name the beer page's can already carries (CSS: .beer-world .can-lift .can). Browsers without it just crossfade. */
   addEventListener('pageswap', e => {
     if (!e.viewTransition || rm.matches) return;
+    // not anchored at the start: on GitHub Pages every path carries the /viking-brugghus-preview/ base
     const url = e.activation && e.activation.entry && e.activation.entry.url, to = url && new URL(url);
-    const m = to && to.pathname.match(/^\/(?:en\/beer|bjorinn)\/([^/]+)\/?$/);
+    const m = to && to.pathname.match(/\/(?:en\/beer|bjorinn)\/([^/]+)\/?$/);
     try { e.viewTransition.types.add(m ? 'to-beer' : 'to-page'); } catch {}
     if (!m) return;
     const beers = (window.VIKING && window.VIKING.beers) || [], i = beers.findIndex(x => x.slug === m[1]); if (i < 0) return;
