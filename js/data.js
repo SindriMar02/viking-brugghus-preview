@@ -767,7 +767,11 @@ window.VIKING = {
   "strings": {
     "is": {
       "gateTitle": "Ertu 20 ára eða eldri?",
-      "gateBody": "Þetta vefsvæði er eingöngu ætlað einstaklingum 20 ára eða eldri",
+      "gateBody": "Þetta vefsvæði er eingöngu ætlað einstaklingum 20 ára eða eldri.",
+      "loading": "Hleð síðunni",
+      "gateHold": "Haltu inni",
+      "moreBeers": "Fleiri bjórar",
+      "viewAll": "Allt úrvalið",
       "yes": "Já, ég er 20 ára eða eldri",
       "no": "Nei",
       "refusal": "Þú þarft að vera 20 ára til að skoða þetta vefsvæði.",
@@ -821,6 +825,10 @@ window.VIKING = {
     "en": {
       "gateTitle": "Are you 20 or older?",
       "gateBody": "This site is intended only for people aged 20 or older.",
+      "loading": "Loading the site",
+      "gateHold": "Press and hold",
+      "moreBeers": "More beers",
+      "viewAll": "The whole range",
       "yes": "Yes, I am 20 or older",
       "no": "No",
       "refusal": "You need to be 20 or older to view this site.",
